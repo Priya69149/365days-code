@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: rgb(138, 43, 226);
+            height: 400px;
+        }
+        .box{
+            border: 5px solid black;
+            display: inline-block;
+/*transform:  translate(134px, 50px) rotate(45deg);
+            transform-origin: 0;*/
+        }
+        .box:hover img{
+            width: 500px;
+        }
+        img{
+            width: 105px;
+            transition-property: width;
+            transition-duration: 3s;
+            transition-timing-function: ease-in;
+        }
+        img:hover{
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box">
+       <img id="myImage" src="nature.jpg.jpg">
+       <button id="btn">Toggle</button>
+    </div>
+</div>
+</body>
+<script>
+    btn.addEventListner("click", ()=>{
+        myImage.style.width = "546px";
+    })
+</script>
+</html>
