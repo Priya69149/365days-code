@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("plastic.jfif");
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
