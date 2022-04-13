@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("image-2.jfif");
+    background-repeat: no-repeat;
+    background-size: 1584px;
+}
+div.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
