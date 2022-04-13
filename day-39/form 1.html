@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Connect with us</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <div id="success" class="alert alert-success alert-dismissible fade " role="alert">
+        <strong>Success!</strong> Your travel request has been successfully submitted.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <div id="failure" class="alert alert-danger alert-dismissible fade " role="alert">
+        <strong>Error!</strong> Your travel request has not been sent due to errors.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    <div class="container">
+        <h1>Connect with us</h1>
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control " id="name" placeholder="Enter your name">
+            <small id="namevalid" class="form-text form-muted is-invalid">
+            
+            </small>
+        </div>
+        <div class="mb-3">
+        <label for="email" class="form-label">Address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your Adress">
+        <small id="emailvalid" class="form-text form-muted is-invalid">
+        
+        </small>
+    </div>
+    <div class="mb-3">
+        <label for="Pin code" class="form-label">Pin Code</label>
+        <input type="text" class="form-control " id="name" placeholder="Enter your Pin code">
+        <small id="namevalid" class="form-text form-muted is-invalid">
+        
+        </small>
+    </div>
+
+    <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+        <small id="emailvalid" class="form-text form-muted is-invalid">
+        
+        </small>
+    </div>
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1"> Check box </label>
+        <select class="form-control" id="exampleFormControlTextarea1">
+            <option>Promotion partner</option>
+            <option>Helping hand</option>
+            <option>Logistic partner</option>
+            <option>Investor</option>
+        </select>
+    </div>
+    
+    <div class="mb-3">
+        <label for="Address"> Enter Your Phone Number</label>
+        <input class="form-control" name="phone" id="phone" rows="3">
+        <small id="phonevalid" class="form-text form-muted is-invalid">
+            your phone number must be 10 digit long
+        </small></input>
+    </div>
+   
+    <button id="submit" class="btn-primary Submit">Submit</button>
+    </div>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <script src="project2.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
